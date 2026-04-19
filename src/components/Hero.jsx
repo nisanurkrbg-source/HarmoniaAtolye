@@ -1,4 +1,5 @@
 import React from 'react';
+import heroImg from '../assets/images/hero.png';
 
 const Hero = () => {
   return (
@@ -40,7 +41,7 @@ const Hero = () => {
             <div className="absolute inset-0 bg-brand-sage/20 rounded-full blur-3xl transform -translate-x-1/2 -translate-y-1/2"></div>
             <div className="relative rounded-3xl overflow-hidden shadow-2xl hover:shadow-brand-sage/30 transition-shadow duration-500">
               <img 
-                src="./images/hero.png" 
+                src={heroImg} 
                 alt="Okul Öncesi Öğretmeni İllüstrasyon" 
                 className="w-full h-auto object-cover"
               />

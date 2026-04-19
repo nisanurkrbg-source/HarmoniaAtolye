@@ -1,5 +1,6 @@
 import React from 'react';
 import { Package, Star, Heart, CheckCircle2 } from 'lucide-react';
+import activityKitImg from '../assets/images/activity_kit.png';
 
 const ProductShowcase = () => {
   const benefits = [
@@ -26,7 +27,7 @@ const ProductShowcase = () => {
           <div className="mb-12 lg:mb-0 relative group">
             <div className="absolute inset-0 bg-brand-peach/30 rounded-[3rem] transform -rotate-3 group-hover:rotate-0 transition-transform duration-500"></div>
             <img 
-              src="./images/activity_kit.png" 
+              src={activityKitImg} 
               alt="Etkinlik Kiti" 
               className="relative z-10 rounded-3xl shadow-lg w-full h-auto object-cover transform group-hover:-translate-y-2 transition-all duration-500"
             />
